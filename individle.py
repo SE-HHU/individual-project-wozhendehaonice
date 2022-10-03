@@ -21,8 +21,8 @@ else:
                     number2=str(number2)
                     sum1=str(sum1)
                     i=str(i)
-                    file1.writelines(["第",i,"题题目:\n",number1,"+",number2,"=","\n"])
-                    file2.writelines(["第",i,"题答案:\n",sum1,"\n"])
+                    file1.writelines(["四则运算题目",i,":\n",number1,"+",number2,"=","\n"])
+                    file2.writelines(["答案",i,":\n",sum1,"\n"])
                     i=int(i)
                 else:
                     continue
@@ -38,8 +38,8 @@ else:
                     low_number=str(low_number)
                     sum2=str(sum2)
                     i=str(i)
-                    file1.writelines(["第",i,"题题目:\n",high_number,"-",low_number,"=\n"])
-                    file2.writelines(["第",i,"题答案:\n",sum2,"\n"])
+                    file1.writelines(["四则运算题目",i,":\n",high_number,"-",low_number,"=\n"])
+                    file2.writelines(["答案",i,":\n",sum2,"\n"])
                     i=int(i)
         if sign_number==2:
             number_1=r.randint(1,100)
@@ -58,8 +58,8 @@ else:
                     number_3=str(number_3)
                     sum3=str(sum3)
                     i=str(i)
-                    file1.writelines(["第",i,"题题目:\n",number_1,"+",number_2,"+",number_3,"=\n"])
-                    file2.writelines(["第",i,"题答案:\n",sum3,"\n"])
+                    file1.writelines(["四则运算题目",i,":\n",number_1,"+",number_2,"+",number_3,"=\n"])
+                    file2.writelines(["答案",i,":\n",sum3,"\n"])
                     i=int(i)
                 elif sign2=="-" and number_1+number_2-number_3<100 and number_1+number_2-number_3>0:
                     i+=1
@@ -69,8 +69,8 @@ else:
                     number_3=str(number_3)
                     sum4=str(sum4)
                     i=str(i)
-                    file1.writelines(["第",i,"题题目:\n",number_1,"+",number_2,"-",number_3,"=\n"])
-                    file2.writelines(["第",i,"题答案:\n",sum4,"\n"])
+                    file1.writelines(["四则运算题目",i,":\n",number_1,"+",number_2,"-",number_3,"=\n"])
+                    file2.writelines(["答案",i,":\n",sum4,"\n"])
                     i=int(i)
                 else:
                     continue
@@ -83,8 +83,8 @@ else:
                     number_3=str(number_3)
                     sum5=str(sum5)
                     i=str(i)
-                    file1.writelines(["第",i,"题题目:\n",number_1,"-",number_2,"+",number_3,"=\n"])
-                    file2.writelines(["第",i,"题答案:\n",sum5,"\n"])
+                    file1.writelines(["四则运算题目",i,":\n",number_1,"-",number_2,"+",number_3,"=\n"])
+                    file2.writelines(["答案",i,":\n",sum5,"\n"])
                     i=int(i)
                 elif sign2=="-" and number_1-number_2-number_3<100 and number_1-number_2-number_3>0:
                     i+=1
@@ -94,8 +94,8 @@ else:
                     number_3=str(number_3)
                     sum6=str(sum6)
                     i=str(i)
-                    file1.writelines(["第",i,"题题目:\n",number_1,"-",number_2,"-",number_3,"=\n"])
-                    file2.writelines(["第",i,"题答案:\n",sum6,"\n"])
+                    file1.writelines(["四则运算题目",i,":\n",number_1,"-",number_2,"-",number_3,"=\n"])
+                    file2.writelines(["答案",i,":\n",sum6,"\n"])
                     i=int(i)
                 else:
                     continue
